@@ -6,9 +6,6 @@ import './aBooks.css';
 import { useAlert } from 'react-alert';
 import { useDispatch, useSelector } from 'react-redux';
 import { getAdminBooks, clearErrors, deleteBook } from '../../Action/BookAction';
-import EditIcon from '@mui/icons-material/Edit';
-import DeleteIcon from '@mui/icons-material/Delete';
-import SortIcon from '@mui/icons-material/Sort';
 import { Button } from '@mui/material';
 // import { DELETE_BOOK_RESET,DELETE_BOOK_REQUEST,DELETE_BOOK_SUCCESS,DELETE_BOOK_FAIL } from '../../constants/booksConstants';
 
@@ -149,7 +146,7 @@ const ABookList = () => {
 
     return (
         <>
-        <div style={{display:'flex', justifyContent:'center',marginBottom:'10px'}}>
+        <div style={{display:'flex', justifyContent:'center',marginBottom:'10px',marginTop:'-25px',backgroundColor:'#02001990'}}>
       <Button variant="outlined" component={Link} to='/admin/Users/New'>Add User</Button>
         <Button variant="outlined" component={Link} to='/admin/AllUsers'>All Users</Button>
       <Button variant="contained" component={Link} to='/admin/Books'>All Books</Button>
