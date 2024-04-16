@@ -1,0 +1,134 @@
+.footer {
+    position: absolute; /* Relative positioning */
+    bottom: 0;
+    clear: both; /* Clear any floats */
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    margin-top: 20px;
+    font-size:17px;
+    /* Add more styling as needed */
+}
+  
+.inner-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+  
+.column {
+    flex: 1;
+    color: white;
+    margin-left: 30px;
+    max-width: 300px;
+    margin-right:auto;
+    padding-right: 100px;
+    font-weight: 300;
+}
+
+.column1 {
+    flex: 1;
+    color: white;
+    margin-left: 0px;
+    font-weight: 200;
+}
+
+.column2 {
+    flex: 1;
+    margin: 0 10px;
+    max-width: 250px;
+    font-weight: 200;
+}
+.quick-link {
+    color: #ffffff; /* Set the default color */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s; /* Add transition for smooth effect */
+}
+
+.quick-link:hover {
+    color: #ff0800; /* Change color on hover */
+}
+
+.column3 {
+    flex: 1;
+    margin: 0 10px;
+    
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 10px; /* Decreased margin-top */
+    padding: 0 20px;
+}
+/* Style the copyright  */
+.copyright {
+    background: none;
+    border: none;
+    color: #fff;
+    padding: 0;
+    flex: 1;
+    text-align:center;
+    font-weight: 100;
+    font-size: 10px;
+}
+.scroll-top-button {
+    display: flex; /* Use flexbox */
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: background-color 0.3s;
+    z-index: 999; /* Ensure the button appears above other elements */
+}
+
+
+.icon0 {
+    font-size: 20px;
+}
+
+.scroll-top-button:hover {
+    background-color: #0056b3;
+}
+
+
+
+.social-icons {
+    display: flex;
+}
+
+.social-icons a {
+    margin-right: 10px;
+}
+
+.icon,.icon1 {
+    font-size: 35px; /* Adjust the size as needed */
+    color: #fefefe; /* Set the default color */
+    transition: color 0.3s; /* Add transition for hover effect */
+}
+
+.icon:hover {
+    color: #f130c7; /* Change color on hover */
+}
+.icon1:hover {
+    color: #3b74b1; /* Change color on hover */
+}
+.social-icons-container {
+    display: flex;
+    align-items: center;
+}
+
+.icon-link {
+    margin-right: 30px; /* Adjust spacing between icons */
+}

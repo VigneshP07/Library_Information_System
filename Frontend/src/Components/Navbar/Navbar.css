@@ -1,0 +1,420 @@
+* {
+    color: white;
+    padding: 0;
+    margin: 0;
+    font-family: "Quicksand";
+    box-sizing: border-box;
+    margin-bottom: 10px;
+  }
+  
+  body {
+    /* height: 1267px; */
+    padding: 0px;
+    margin: 0px;
+    /* overflow: hidden; */
+  }
+  
+  .navbar {
+    width: 100%;
+    min-height: 5rem;
+    padding: 0 2rem;
+    /* position: fixed; */
+    display: flex;
+    flex-direction: row;
+    background-color: #02001990;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 5;
+    margin-bottom:25px;
+  }
+  
+  .navbar.open {
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    background-color: black;
+    z-index: 1;
+  }
+  
+  
+  /* <<<<............title css Starts............>>>> */
+  .TitleOfPlatform {
+    display: flex;
+    flex-direction: column;
+    height: initial;
+    align-items: center;
+    margin-left: 1.5vw;
+    min-width: 20vw;
+  }
+  
+  .TiltleOfPlatforms {
+    display: block;
+  }
+  
+  .TitleOfPlatforms.open {
+    display: block;
+  }
+  
+  #name1 {
+    color: red;
+    font-weight: 800;
+    font-size: 30px;
+    margin-right: 5px;
+  }
+  
+  
+  #name2 {
+    color: white;
+    font-weight: 800;
+    font-size: 20px;
+  }
+  
+  #After600px {
+    display: none;
+  }
+  
+  /* <<<<.........title css ends.........>>>> */
+  
+  .navbar-profile-picture {
+    background-size: cover;
+    aspect-ratio: 1;
+    border: 2px solid white;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    overflow: hidden;
+    transition-duration: 0.3s;
+    margin-right: 1rem;
+  }
+  
+  .navbar-profile-picture:hover {
+    box-shadow: 0px 0px 10px 0px white;
+    transition: ease-in-out;
+    transition-duration: 0.1s;
+  }
+  
+  .navbar-profile-picture img {
+    aspect-ratio: 1;
+    width: 2rem;
+  }
+  
+  /* <<<<.........  NAVIGATION STARTS.........>>>> */
+  
+  .Navigation {
+    display: block;
+    min-width: 26vw;
+    margin-left: auto;
+  }
+  
+  .profile-buttons-navbar {
+    display: flex;
+    padding: 0 2rem;
+    align-items: center;
+  }
+  
+  .profile-buttons-navbar.open {
+    flex-direction: column;
+  }
+  
+  .NavigatingOptions {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4rem;
+  }
+  
+  .NavigatingOptions li {
+    list-style: none;
+  }
+  
+  .NavigatingOptions li a {
+    font-weight: 1;
+    font-size: 1.2rem;
+    text-decoration: none;
+    padding: 0 1.5rem;
+  }
+  
+  .profile-buttons-logout{
+    color: red ;
+    border-color: red;
+    border-width: 3px;
+    border-radius: 5px;
+    border-style: solid;
+    padding: 3px 10px ;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 1;
+    background-color: transparent;
+    transition: 0.5s;
+  }
+  .profile-buttons-logout:hover{
+    background-color: red;
+    color: white;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+  .profile-button-upgrade{
+    color: white;
+    padding: 3px 10px ;
+    border-radius: 5px;
+    border-color: red;
+    border-style: solid;
+    border-width: 3px;
+    margin-left: 10px;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 1;
+    background-color: red;
+    transition: 0.5s;
+  }
+  .profile-button-upgrade:hover{
+    background-color: transparent;
+    border-color: red;
+    border-width: 3px;
+    border-radius: 5px;
+    border-style: solid;
+    padding: 3px 10px;
+    color: red;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+  
+  /* <<<<<.................Navigation Ends..............>>> */
+  
+  .navbar {
+    padding: 0 1rem;
+  }
+  
+  .Searchcontainer,
+  .Searchcontainer.open {
+    display: block;
+  }
+  
+  .SearchBar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    min-width: 32vw;
+    margin-right: 1.5vw;
+  }
+  
+  .SearchBar input {
+    width: 27vw;
+    height: 53px;
+    color: black;
+    font-size: 21px;
+    padding-left: 10px;
+    background-color: white;
+    border: 0px solid white;
+    border-right: 2px solid grey;
+  }
+  
+  
+  /* <..........Hamburger Css ................> */
+  #hambutton {
+    display: none;
+  }
+  
+  .hamburger {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50px;
+    height: 25px;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .SigupNavBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10px;
+  
+    height: 50px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+  
+  }
+  
+  .MainPartNavBar{
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .MainPartNavBar a:hover{
+    color: white;
+    transition: 0.6s;
+    cursor: pointer;
+  }
+
+  .MainPartNavBar a:hover{
+    color: red;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+
+  .MainPartNavBar.open {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .SigupNavBar:hover{
+    background-color: white;
+    color: red;
+    box-shadow: 0px 0px 10px 0px white;
+    transition: ease-in-out;
+    transition-duration: 0.1s;
+  }
+  
+  .LoginNavBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    margin-left: 10px;
+    background-color: white;
+    color: red;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+  }
+  
+  .LoginNavBar:hover{
+    background-color: red;
+    color: white;
+    box-shadow: 0px 0px 10px 0px red;
+    transition: ease-in-out;
+    transition-duration: 0.1s;
+  }
+  
+  .line {
+    width: 30px;
+    height: 3px;
+    background: #eeeeee;
+    transition: all 0.3s ease;
+  }
+  
+  .hamburger.open .line:nth-child(1) {
+    transform: translateY(10.2px) rotate(45deg);
+    transform-origin: center;
+  }
+  
+  .hamburger.open .line:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .hamburger.open .line:nth-child(3) {
+    transform: translateY(-10.2px) rotate(-45deg);
+    transform-origin: center;
+  }
+  
+  .hamburger.open {
+    position: fixed;
+    left: 82vw;
+    top: 15px;
+  }
+  
+  
+  /* <<<............hamburger css ends...............>>>> */
+  
+  
+  
+  
+  
+  
+  @media only screen and (max-width:665px) {
+    .navbar.open {
+      flex-direction: column;
+      height: 100vh;
+      width: 100%;
+      justify-content: center;
+    }
+  
+  
+    /* <..........Hamburger Css ................> */
+    #hambutton {
+      display: flex;
+    }
+  
+    /* <<<............hamburger css ends...............>>>> */
+  
+  
+  
+  
+    /* <<<<.........title css Starts.........>>>> */
+    .TitleOfPlatforms.open {
+      display: none;
+    }
+  
+    #After600px {
+      display: flex;
+    }
+  
+    #Before600px {
+      display: none;
+    }
+  
+    /* <<<<.........title css Ends.........>>>> */
+  
+  
+  
+    /* <<<<.........NAVIGATION STARTS.........>>>> */
+  
+    .Navigation {
+      display: none;
+    }
+  
+    .Navigation {
+  
+      min-width: 20vw;
+      margin: auto;
+    }
+  
+    .Navigation.open {
+      display: block;
+    }
+  
+    .NavigatingOptions.open {
+      flex-direction: column;
+    }
+  
+    .NavigatingOptions.open li {
+      padding: 20px;
+    }
+  
+    /* <<<<.........navigation Ends...........>>>>> */
+  
+  
+  
+    /* <<<<<.............Searach Starts ...........>>>>>>>>> */
+  
+    .Searchcontainer {
+      display: none;
+      margin-top: auto;
+      margin-bottom: 40vh;
+      margin: auto;
+    }
+  
+    .Searchcontainer.open {
+      display: block;
+      margin-top: 0px;
+    }
+  
+    /* <<<<<.............Searach Ends ...........>>>>>>>>> */
+  }
+  
+  @media only screen and (max-width:1064px) {
+    .Navigation {
+      margin: auto;
+    }
+  
+    .Searchcontainer {
+      margin-left: auto;
+    }
+  
+  }

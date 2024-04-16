@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*base styles*/
+* {
+  margin : 0;
+  font-family: "Quicksand";
+}
+
+body {
+   /* padding-top: 70px;  */
+   width:100%;
+   height: 100vh;
+   background-image: url('./Background.png');
+   background-size: cover;
+   background-color: rgba(255, 255, 255, 0.6);
+   background-attachment: fixed;
+}
+
+input{
+  color: black;
+  border-radius: 3px;
+}
+.home{
+  max-width: 600px;
+  margin: 40px auto;
+}
+
+.bookdetails{
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.pagination-container .MuiPaginationItem-text {
+  color: rgb(242, 242, 248);
+}
+
+.LogIn {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.LogIn label {
+  text-align: left;
+  font-size: 20px; 
+  color: gold;
+  display: block;
+}
+.LogIn h2  {
+  font-size: 20px;
+  color: red;
+  margin-bottom: 30px;
+}
+
+.LogIn p{
+  font-size: 20px;
+  color: red;
+  margin-bottom: 30px;
+  padding: 10px;
+}
+
+.LogIn input{
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.LogIn button {
+  background: red;
+  color: white;
+  font-size: 15px;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.LogIn h2 {
+  font-size: 40px;
+}
+
+.book {
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid #fafafa;
+}
+.book:hover {
+  box-shadow: 1px 3px 5px rgb(255, 255, 255);
+  /* box-shadow: 0px 0px 0px 2px rgba(255, 255, 255, 0.525); */
+}
+.book h2 {
+  font-size: 24px;
+  color: red;
+  margin-bottom: 8px;
+}
+
+.hhh{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.ABCDF{
+  background-color: rgb(0, 253, 0);
+}
+
+.ABCDF2{
+  background-color: rgb(0, 110, 255);
+}
+
+.ABCDF3{
+  background-color: red;
+}
+
+.Had{
+  margin-bottom: 20px;
+}
+
+.book p{
+  font-size: 17px;
+}
+.book a{
+  text-decoration: none;
+}
+
+.bookdetails h2 {
+  font-size: 20px;
+  color: red;
+  margin-bottom: 10px;
+}
+
+.bookdetails div {
+  margin: 20px 0;
+  font-size: 17px;
+}
+
+.bookdetails button {
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.SignUp {
+  max-width: 400px;
+  margin: 20px auto;
+  text-align: center;
+}
+.SignUp label {
+  text-align: left;
+  color: gold;
+  font-size: 20px;
+  display: block;
+}
+.SignUp h2 {
+  font-size: 40px;
+  color: red;
+  margin-bottom: 30px;
+}
+.SignUp p {
+  font-size: 20px;
+  color: red;
+  margin-bottom: 30px;
+}
+.SignUp input, .SignUp textarea, .SignUp select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.SignUp button {
+  background: red;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+select{
+  color: #000;
+}
+.ABC{
+  color: #000;
+}
+
+
+.ind {
+  display: inline-flex;
+}
+
+.ind img{
+  width: 200px;
+  height: 240px;
+  border-radius: 10px;
+  margin-right: 30px;
+  /* transition: transform 0.3s,filter 0.3s,box-shadow 0.3s; */
+}
+
+/* Search bar */
+
+/* .Search {
+  margin-top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Search form {
+  display: flex;
+  align-items: center;
+}
+
+.Search input[type="text"] {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 8px;
+  font-size: 16px;
+} */
+
+
+.Paginator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  background-color: white;
+  color: white;
+  margin-bottom: 100px;
+}
+
+.MuiPagination-ul li button {
+  color: white;
+  border-color: white;
+}
+
+.Search button {
+  padding: 8px 16px;
+  background-color: #007bff; /* Blue color, you can change it to your desired color */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Optional: Hover effect for the button */
+.Search button:hover {
+  background-color: #0056b3; /* Darker shade of blue */
+}
+
+
+article div span{
+  color: gold;
+}
+/* Loader */
+.loader{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20%;
+  width: 80px;
+  height: 80px;
+  padding-top: 0;
+}
+
+.loader:after{
+  content: ' ';
+  display: block;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border-radius: 50%;
+  border: 6px solid rgb(252, 7, 7);
+  border-color: rgb(252, 7, 7) transparent transparent transparent;
+  animation: lds-dual-ring 0.8s linear infinite;
+}
+
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .footer{
+    display: none;
+  }
+}
