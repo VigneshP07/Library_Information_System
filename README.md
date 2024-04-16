@@ -20,7 +20,7 @@ To install this project, run:
 
 - npm install or npm i
 - npm run dev (For Devlopment Mode)
-- npm run pro (For Production mode)
+- npm run prod (For Production mode)
 - Server http://localhost:4000/
 
 ## For Frontend :
